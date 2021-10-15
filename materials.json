@@ -1,0 +1,64 @@
+{
+    "reinforcements":[
+        {
+            "name"    : "reinf1",
+            "r_mody"  : "4.1e5",
+            "r_poiss" : "0.24e0",
+            "r_y0"    : "0.0e0",
+            "r_alfa"  : "0.43e-5"
+        },
+        {
+            "name"    : "testreinf",
+            "r_mody"  : "4.1e5",
+            "r_poiss" : "0.24e0",
+            "r_y0"    : "0.0e0",
+            "r_alfa"  : "0.43e-5"
+        }
+    ],
+    "matrixes":[
+        {
+            "name"     : "mat1",
+            "xm_mody"  : "0.448e5",
+            "xm_poiss" : "0.357e0",
+            "xm_y0"    : "0.0e0",
+            "xm_alfa"  : "0.287e-4",
+            "hf"       : "5.0e-1",
+            "hg"       : "5.0e-1",
+            "hh"       : "5.0e-1",
+            "hl"       : "1.5e0",
+            "hm"       : "1.5e0",
+            "hn"       : "1.5e0",
+            "aanand"   : "1.91e7",
+            "qanand"   : "1.7535e5",
+            "csianand" : "7.00e0",
+            "emanand"  : "0.23348e0",
+            "anann"    : "0.07049e0",
+            "s0anand"  : "18.0e0",
+            "ansbar"   : "18.9e0",
+            "anh0"     : "1115.6e0",
+            "anana"    : "1.3e0"
+        },
+        {
+            "name"     : "testmat",
+            "xm_mody"  : "0.448e5",
+            "xm_poiss" : "0.357e0",
+            "xm_y0"    : "0.0e0",
+            "xm_alfa"  : "0.287e-4",
+            "hf"       : "5.0e-1",
+            "hg"       : "5.0e-1",
+            "hh"       : "5.0e-1",
+            "hl"       : "1.5e0",
+            "hm"       : "1.5e0",
+            "hn"       : "1.5e0",
+            "aanand"   : "1.91e7",
+            "qanand"   : "1.7535e5",
+            "csianand" : "7.00e0",
+            "emanand"  : "0.23348e0",
+            "anann"    : "0.07049e0",
+            "s0anand"  : "18.0e0",
+            "ansbar"   : "18.9e0",
+            "anh0"     : "1115.6e0",
+            "anana"    : "1.3e0"
+        }
+    ]
+}
