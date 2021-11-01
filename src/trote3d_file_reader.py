@@ -1,3 +1,5 @@
+import os
+
 def format_line(lines, type, line, end, start=0):
     if (type==int): return list(map(int,lines[line].split()[start:end]))
     else: return list(map(float,lines[line].replace('d', 'e').split()[start:end]))
@@ -5,8 +7,11 @@ def format_line(lines, type, line, end, start=0):
 class Trote3d_file_reader:
 
     def __init__(self, filename, version):
-        file = open("../input_files/"+filename, 'r')
+        dirname = os.path.dirname(__file__)
+        filename = os.path.join(dirname, '../input_files/', filename)
+        file = open(filename, 'r')
         lines = file.readlines()
+        file.close()
         self.fprnome = str.split(lines[0])[0]
         self.ninici, self.nimax, self.nrmax, self.ngrav = format_line(lines, int, 2, 4)
         self.nmalh, self.ncondl, self.noptim, self.nph, self.irs = format_line(lines, int, 3, 5)

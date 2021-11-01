@@ -1,9 +1,12 @@
 import json
+import os
 
 class Trote3d_material_loader:
 
     def __init__(self, material_file_name):
-        f = open("../materials/"+material_file_name,)
+        dirname = os.path.dirname(__file__)
+        filename = os.path.join(dirname, '../materials/', material_file_name)
+        f = open(filename,)
         self.materials = json.load(f, object_hook=float_object_hook)
         f.close()
 
