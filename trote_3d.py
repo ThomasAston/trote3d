@@ -7,6 +7,8 @@ from trote3d_elements import Trote3d_elements
 from trote3d_time_integration import Trote3d_time_integration
 from trote3d_temperature_integration import Trote3d_temperature_integration
 
+import time
+
 if __name__ == "__main__":
 
     # Input file and materials file
@@ -74,6 +76,8 @@ if __name__ == "__main__":
     #TODO - Why is the nrmax from the input file overwritten here?
     time_int = Trote3d_time_integration(input_variables, nred=1, nrmax=10, condition=None)
 
+    start = time.time()
     # Carrying out the temperature integration with the specified time integration scheme
     temp_int.integrate(input_variables, mesh, constants, time_int)
-
+    end = time.time()
+    print(end - start)
