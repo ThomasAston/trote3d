@@ -1,9 +1,10 @@
 # PyTrote3d [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) 
 
-<a href = "https://github.com/younjames/trote3d/graphs/contributors">
-<img src = "https://contrib.rocks/image?repo = younjames/trote3d"/>
+<a href="https://github.com/younjames/trote3d/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=younjames/trote3d" />
 </a>
-Made with [contributors-img](https://contrib.rocks).
+
+Made with [contrib.rocks](https://contrib.rocks).
 
 ## Table of contents
 * [About](#about)
