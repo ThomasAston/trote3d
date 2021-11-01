@@ -1,4 +1,7 @@
-# PyTrote3d [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) 
+[![Build Status - GitHub](https://github.com/younjames/trote3d/workflows/pytesting/badge.svg)](https://github.com/younjames/trote3d/actions/workflows/python-app.yml)
+
+# PyTrote3d
 
 <a href="https://github.com/younjames/trote3d/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=younjames/trote3d" />
