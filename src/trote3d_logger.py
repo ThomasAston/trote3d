@@ -3,7 +3,7 @@ import logging
 class Trote3d_logger:
 
     def __init__(self,filename):
-        logging.basicConfig(filename=filename+".log", level=logging.DEBUG, filemode='w', format='%(message)s')
+        logging.basicConfig(filename="../logs/"+filename+".log", level=logging.DEBUG, filemode='w', format='%(message)s')
     
     def log_inputs_and_mesh(self, in_vars, mesh):
         logging.info('Mesh definition: \n-------------------------------------')

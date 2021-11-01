@@ -5,7 +5,7 @@ def format_line(lines, type, line, end, start=0):
 class Trote3d_file_reader:
 
     def __init__(self, filename, version):
-        file = open(filename, 'r')
+        file = open("../input_files/"+filename, 'r')
         lines = file.readlines()
         self.fprnome = str.split(lines[0])[0]
         self.ninici, self.nimax, self.nrmax, self.ngrav = format_line(lines, int, 2, 4)

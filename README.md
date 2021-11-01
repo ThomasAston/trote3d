@@ -38,6 +38,7 @@ material = 'materials.json'
 ```
 ## To do
 - [ ] Complete conversion of Fortran 90 code to Python 3 and complete verification.
+- [ ] Write unit tests.
 - [ ] Specify input file and material when running command, not in python file.
 - [ ] Investigate application of multiprocessing.
 

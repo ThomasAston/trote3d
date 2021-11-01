@@ -3,7 +3,7 @@ import json
 class Trote3d_material_loader:
 
     def __init__(self, material_file_name):
-        f = open(material_file_name,)
+        f = open("../materials/"+material_file_name,)
         self.materials = json.load(f, object_hook=float_object_hook)
         f.close()
 
